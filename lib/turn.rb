@@ -40,3 +40,4 @@ valid_move?(board, index)
 if false
   index = input_toindex(input)
 end
+end
