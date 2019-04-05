@@ -38,7 +38,7 @@ input = gets.strip
 index = input_to_index(input)
 if valid_move?(board, index)
 move(board, index, player = "X")
-else
+else !valid_move?(board, index)
   input = get.strip
   index = input_to_index(input)
   valid_move?(board, index)
